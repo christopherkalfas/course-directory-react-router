@@ -5,9 +5,9 @@ import { JSCourses } from '../../data/courses';
 const JavaScript = (props) => {
   let courses = JSCourses.map((course) => {
     return <Course title={course.title}
-                   desc={course.description}
-                   img={course.img_src}
-                   key={course.id} />
+                    desc={course.description}
+                    img={course.img_src}
+                    key={course.id} />
   }); 
   return (
     <div>
